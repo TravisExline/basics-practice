@@ -1,0 +1,43 @@
+.index-header {
+    font-style: italic;
+    color: green;
+}
+
+ol {
+    padding-top: 10px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+#animals-header {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+table, th, td{
+    border: 2px solid;
+}
+
+img {
+    padding: 10px;
+}
+
+@media (min-width: 700px) {
+    img {
+        height: 200px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 699px) {
+    img {
+        height: 100px;
+        width: 150px;
+    }
+}
